@@ -1,0 +1,22 @@
+version: '3'
+
+tasks:
+  install:
+    desc: "Install essential tools with devbox"
+    silent: true
+    vars:
+      packages:
+        - git
+        - fzf
+        - bat
+        - delta
+        - eza
+        - tldr
+        - thefuck
+        - zoxide
+        - google-cloud-sdk
+        - awscli2
+    cmds:
+      - for: 
+          var: packages
+        cmd: devbox global add {{ .ITEM }}
