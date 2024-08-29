@@ -16,18 +16,10 @@ tasks:
         - zoxide
         - google-cloud-sdk
         - awscli2
-        - neovim
         - nodejs
         - cargo
         - python3
         - ripgrep
-        - vimPlugins.nvchad
-        - vimPlugins.nvchad-extensions
-        - vimPlugins.nvchad-ui
-        - vimPlugins.nerdtree
-        - vimPlugins.nerdtree-git-plugin
-        - lua51Packages.telescope-nvim
-        - vimPlugins.telescope-nvim
     cmds:
       - for: 
           var: packages
