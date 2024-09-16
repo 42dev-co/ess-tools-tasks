@@ -6,20 +6,31 @@ tasks:
     silent: true
     vars:
       packages:
-        - git
-        - fzf
-        - bat
-        - delta
-        - eza
-        - tldr
-        - thefuck
-        - zoxide
-        - google-cloud-sdk
-        - awscli2
-        - nodejs
-        - cargo
-        - python3
-        - ripgrep
+        - git@latest
+        - fzf@latest
+        - bat@latest
+        - delta@latest
+        - eza@latest
+        - tldr@latest
+        - thefuck@latest
+        - zoxide@latest
+        - google-cloud-sdk@latest
+        - awscli2@latest
+        - nodejs@latest
+        - cargo@latest
+        - python3@latest
+        - ripgrep@latest
+        - kubectl@latest
+        - minikube@latest
+        - stern@latest
+        - gomplate@latest
+        - python@latest
+        - zip@latest
+        - ipcalc@latest
+        - go@latest
+        - gofumpt@latest
+        - goimports@latest
+        - yq@latest
     cmds:
       - for: 
           var: packages
